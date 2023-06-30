@@ -1,0 +1,82 @@
+{
+    "editor.fontFamily": "Monaco, Menlo , Consolas, 'Courier New', monospace",
+    "window.titleBarStyle": "custom",
+    "files.trimTrailingWhitespace": true,
+    "editor.tabCompletion": "on",
+    "html.format.wrapLineLength": 80,
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "html.format.endWithNewline": true,
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDelete": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.previewLsp": true,
+    "dart.openDevTools": "flutter",
+    "workbench.editor.enablePreview": false,
+    "json.maxItemsComputed": 10000,
+    "git.confirmSync": false,
+    "editor.formatOnType": true,
+    "workbench.colorTheme": "Monokai Classic",
+    "yaml.schemas": {
+        "file:///home/aecj/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i"
+    },
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+            "scope": [
+              //following will be in italic (=FlottFlott)
+                //"comment",
+                "entity.name.type.class", //class names
+                "keyword", //import, export, return…
+                "constant", //String, Number, Boolean…, this, super
+                "storage.modifier", //static keyword
+                "storage.type.class.js", //class keyword
+                ],
+                "settings": {
+                "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontSize": 14,
+}
