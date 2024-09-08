@@ -5,7 +5,6 @@
     "editor.tabCompletion": "on",
     "html.format.wrapLineLength": 80,
     "editor.renderWhitespace": "all",
-    "window.zoomLevel": 0,
     "editor.tabSize": 2,
     "html.format.endWithNewline": true,
     "breadcrumbs.enabled": true,
@@ -25,7 +24,7 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "dart.previewLsp": true,
     "dart.openDevTools": "flutter",
@@ -35,7 +34,7 @@
     "editor.formatOnType": true,
     "workbench.colorTheme": "Monokai Classic",
     "yaml.schemas": {
-        "file:///home/aecj/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i"
+        "file:///Users/aecj/.vscode/extensions/docsmsft.docs-yaml-1.0.4/dist/toc.schema.json": "/toc\\.yml/i"
     },
     "redhat.telemetry.enabled": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -79,4 +78,6 @@
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "editor.fontSize": 14,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.guides.bracketPairs": true,
 }
